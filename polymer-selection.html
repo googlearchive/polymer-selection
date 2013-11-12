@@ -115,7 +115,7 @@ license that can be found in the LICENSE file.
         return this.selection.indexOf(item) >= 0;
       },
       setItemSelected: function(item, isSelected) {
-        if (item) {
+        if (item !== undefined) {
           if (isSelected) {
             this.selection.push(item);
           } else {
