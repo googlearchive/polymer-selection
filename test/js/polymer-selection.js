@@ -6,4 +6,5 @@
 
 htmlSuite('polymer-selection', function() {
   htmlTest('html/polymer-selection.html');
+  htmlTest('html/polymer-selection-multi.html');
 });
